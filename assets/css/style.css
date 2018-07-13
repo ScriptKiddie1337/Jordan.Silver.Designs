@@ -2,20 +2,65 @@
     background-color: rgb(71, 190, 151);
 }
 
+.alt-bg {
+    background-color: rgb(235, 235, 235);
+}
 
+.page-footer {
+   background-color: rgb(235, 235, 235);
+   border-top: 5px solid rgb(66, 66, 66); 
+}
 
+.footer-copyright {
+    background-color: rgb(255, 177, 31);
+}
 
+.inner-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
 
+a {
+    color: rgb(36, 172, 81);
+}
 
+a:hover {
+    color: rgb(255, 177, 31);
+}
 
+.card-img-top {
+    border-bottom: 3px solid;
+    border-color: rgb(255, 177, 31);
+}
 
+#home-jumbo {
+    background: url("../images/homepage/jumbo-xxlight.png");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
 
+.mini-jumbo {
+    background-color: rgb(255, 177, 31);
+    max-height: 200px;
+    padding: 0;
+}
 
+.navbar {
+    background: url("../images/homepage/jumbo-xmlight.png");
+    background-size:     cover; 
+}
 
+.about-image {
+    border-radius: 50%;
+    border: solid rgb(255, 177, 31);
+    border-width: 5px;
+    padding: 0;
+}
 
-
-
-
+.contact-container {
+    max-width: 800px;
+}
 
 
 
