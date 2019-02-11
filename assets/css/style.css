@@ -37,15 +37,37 @@ a:hover {
 /* HOME CSS */
 #home-jumbo {
     background: url("../images/homepage/jumbo-xxlight.png");
-    background-size:     cover;                      /* <------ */
+    background-size:     cover;                     
     background-repeat:   no-repeat;
     background-position: center center; 
 }
 
+#currentProject {
+    background: url("../images/homepage/hkbanner.png");
+    color: white;
+}
+
+#currentProjectLogo {
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    margin: 0 auto;
+  
+}
+
+.subBackground {
+    background-color: grey;
+    padding-top: 20px;
+    padding-bottom: 1px;
+    padding-left: 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
 .mini-jumbo {
     background-color: rgb(255, 177, 31);
-    max-height: 200px;
+    height: 100px;
     padding: 0;
+    padding-top: 30px;
 }
 
 .navbar {
