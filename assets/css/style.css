@@ -96,4 +96,11 @@ a:hover {
     max-width: 800px;
 }
 
+/* DEV CSS */
+
+.hkCard {
+    width: 290px;
+    height: 250px;
+}
+
 /* MEDIA QUERIES */
