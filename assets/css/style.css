@@ -1,3 +1,4 @@
+/* GENERAL */
 .bg {
     background-color: rgb(71, 190, 151);
 }
@@ -33,6 +34,7 @@ a:hover {
     border-color: rgb(255, 177, 31);
 }
 
+/* HOME CSS */
 #home-jumbo {
     background: url("../images/homepage/jumbo-xxlight.png");
     background-size:     cover;                      /* <------ */
@@ -61,3 +63,5 @@ a:hover {
 .contact-container {
     max-width: 800px;
 }
+
+/* MEDIA QUERIES */
