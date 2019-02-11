@@ -1,6 +1,6 @@
 /* GENERAL */
 .bg {
-    background-color: rgb(71, 190, 151);
+    background-color: rgb(41, 11, 95);
 }
 
 .alt-bg {
@@ -13,7 +13,7 @@
 }
 
 .footer-copyright {
-    background-color: rgb(255, 177, 31);
+    background-color: rgba(255, 204, 0);
 }
 
 .inner-container {
@@ -22,18 +22,26 @@
 }
 
 a {
-    color: rgb(36, 172, 81);
+    color: rgb(82, 151, 255);
 }
 
 a:hover {
-    color: rgb(255, 177, 31);
+    color: rgb(82, 151, 255);
 }
 
 .card-img-top {
     border-bottom: 3px solid;
-    border-color: rgb(255, 177, 31);
+    border-color: rgb(255, 204, 0);
 }
 
+.btn {
+    background-color: rgb(255, 204, 0);
+    border-color: rgb(255, 204, 0);
+}
+
+.fas {
+    filter: drop-shadow(3px 3px 1px #ffffff);
+}
 /* HOME CSS */
 #home-jumbo {
     background: url("../images/homepage/jumbo-xxlight.png");
@@ -64,7 +72,7 @@ a:hover {
 }
 
 .mini-jumbo {
-    background-color: rgb(255, 177, 31);
+    background-color: rgb(82, 151, 255);
     height: 100px;
     padding: 0;
     padding-top: 30px;
@@ -80,6 +88,8 @@ a:hover {
     border: solid rgb(255, 177, 31);
     border-width: 5px;
     padding: 0;
+    height: 150px;
+    width: 150px;
 }
 
 .contact-container {
