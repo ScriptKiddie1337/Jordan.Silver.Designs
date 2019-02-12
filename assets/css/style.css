@@ -42,6 +42,11 @@ a:hover {
 .fas {
     filter: drop-shadow(3px 3px 1px #ffffff);
 }
+
+#titleText {
+    font-family: 'Monoton', cursive;
+    font-size: 25px;
+}
 /* HOME CSS */
 #home-jumbo {
     background: url("../images/homepage/jumbo-xxlight.png");
